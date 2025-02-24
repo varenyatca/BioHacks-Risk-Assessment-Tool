@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is That Sus? - Privacy Risk Assessment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>BioWhat - Medical Risk Assessment</h1>
+        <p>Answer the following questions to assess your privacy risk in healthcare.</p>
+        
+        <form id="quiz-form">
+            <div id="quiz-questions"></div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>Your Risk Assessment:</h2>
+            <p id="risk-level"></p>
+            <p id="recommendation"></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
