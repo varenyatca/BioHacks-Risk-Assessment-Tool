@@ -1,6 +1,6 @@
 # BioHacks-Risk-Assessment-Tool
 
-Tool Name: BioWhat
+Tool Name: Risky
 
 Purpose: A medical risk assessment tool for patients to analyze their privacy and safety
 
