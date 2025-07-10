@@ -1,6 +1,6 @@
-# BioHacks-Risk-Assessment-Tool
+# Risk-Assessment-Tool
 
-Tool Name: Risky
+Tool Name: Risqy
 
 Purpose: A medical risk assessment tool for patients to analyze their privacy and safety
 
